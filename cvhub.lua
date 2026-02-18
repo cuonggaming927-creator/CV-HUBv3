@@ -5,12 +5,3 @@ local Window = WindUI:CreateWindow({
     Author = "By tiktok:toibitretrau11222", -- Tên tác giả
     Folder = "MyscriptEscapeTsunami" -- Tên thư mục lưu cấu hình
 })
-local MainTab = Window:CreateTab({
-    Name = "Main",
-    Icon = "rbxassetid://10734951102"
-})
-local Tab = Window:Tab({
-    Title = "Main",
-    Icon = "rbxassetid://10734951102", -- optional
-    Locked = false,
-})
