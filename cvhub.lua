@@ -14,3 +14,4 @@ local Tab = Window:Tab({
     Icon = "tsunami", -- optional
     Locked = false,
 })
+Tab:Select() -- Select Tab
