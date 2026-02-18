@@ -6,7 +6,7 @@ local Window = WindUI:CreateWindow({
     Folder = "MyscriptEscapeTsunami" -- Tên thư mục lưu cấu hình
 })
 local Tab = Window:CreateTab({
-    Title = "Tab Title",
+    Name = "Tab Title",
     Icon = "bird", -- optional
     Locked = false,
 })
