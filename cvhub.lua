@@ -9,3 +9,8 @@ local MainTab = Window:CreateTab({
     Name = "Main",
     Icon = "rbxassetid://10734951102"
 })
+local Tab = Window:Tab({
+    Title = "Escape",
+    Icon = "tsunami", -- optional
+    Locked = false,
+})
