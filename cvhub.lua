@@ -1,4 +1,5 @@
-local  WinUI = loadstring(game:HttpGet("http://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+local Version = "1.6.41"
+local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/download/" .. Version .. "/main.lua"))()
 local Window = WindUI:CreateWindow({
     Title = "Escape Tsunami", -- Tên hiển thị
     Icon = "rbxassetid://10734951102", -- ID icon (tùy chọn)
