@@ -3,9 +3,7 @@ local Window = WindUI:CreateWindow({
     Title = "Escape Tsunami", -- Tên hiển thị
     Icon = "rbxassetid://10734951102", -- ID icon (tùy chọn)
     Author = "By tiktok:toibitretrau11222", -- Tên tác giả
-    Folder = "MyscriptEscapeTsunami", -- Tên thư mục lưu cấu hình
-    Transparent = true,
-    Opacity = 0.5
+    Folder = "MyscriptEscapeTsunami" -- Tên thư mục lưu cấu hình
 })
 local MainTab = Window:CreateTab({
     Name = "Main",
