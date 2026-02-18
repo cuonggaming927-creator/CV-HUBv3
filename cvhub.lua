@@ -11,7 +11,7 @@ local MainTab = Window:CreateTab({
 })
 local Tab = Window:Tab({
     Title = "Escape",
-    Icon = "tsunami", -- optional
+    Icon = "bird", -- optional
     Locked = false,
 })
 Tab:Select() -- Select Tab
