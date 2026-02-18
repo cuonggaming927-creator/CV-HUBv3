@@ -10,8 +10,7 @@ local MainTab = Window:CreateTab({
     Icon = "rbxassetid://10734951102"
 })
 local Tab = Window:Tab({
-    Title = "Escape",
-    Icon = "bird", -- optional
+    Title = "Main",
+    Icon = "rbxassetid://10734951102", -- optional
     Locked = false,
 })
-Tab:Select() -- Select Tab
